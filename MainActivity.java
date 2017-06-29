@@ -18,8 +18,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-
-
     protected void onRadioButtonClicked(View view){
         // Is the button now checked?
         boolean checked = ((RadioButton) view).isChecked();
